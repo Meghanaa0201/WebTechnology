@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.header ul{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    background-color: rgb(237, 167, 82);
+    /* list-style-type: georgian; */
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+table , th , td{
+    border: 1px solid black ;
+}
+
+
+table {
+    height: 300px;
+    width: 80%;
+}
+
+td{
+    text-align: center;
+    font-weight: bold;
+}

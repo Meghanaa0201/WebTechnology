@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    
+    padding-top: 20px;
+    padding-left: 150px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+    position: absolute;
+    width: 80%;
+}
+
+.logo {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-buttons {
+    display: flex;
+    padding-left: 650px;
+    gap: 10px;
+    
+}
+
+.language-btn, .sign-in-btn {
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.language-btn {
+    background: rgba(50, 50, 50, 0.8);
+    color: white;
+}
+
+.sign-in-btn {
+    background: red;
+    color: white;
+}
+
+/* .back{
+    width: 100%;
+
+} */
+
+.back {
+    width: 100%;
+    height: 650px;
+    background-image: url('./frida.jpg');
+    background-size: cover;
+    
+}
+
+
+.main{
+    color: white;
+    display: inline-block;
+    margin: auto;
+    padding-top: 200px;
+    padding-left: 80px;
+    text-align: center;
+    text-shadow: 0px 0px 3px black;
+}
+
+
+h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h2{
+    height: 20px;
+}
+
+p{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    height: 30px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.get{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background: red;
+    border: 1px solid black;
+}
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+  
+    margin: auto;
+    
+}
+
+h3 {
+    font-size: 35px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+
+
+.b1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.frst {
+    width: 150px;
+}
+
+.frst img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.frst1 {
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.rea {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    margin-top: 20px;
+   
+}
+
+
+.rea1 {
+    background: #181818;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(  pink  , hotpink , purple , blue)
+}
+
+.more{
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+.f{
+    text-align: center;
+}
+
+.icon {
+    text-align: right;
+    font-size: 50px;
+    display: flex;
+    margin: auto;
+   justify-content: end;
+} 
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+.section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.item {
+    background-color: #222;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.a {
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    padding: 15px;
+    cursor: pointer;
+    display: block;
+}
+
+.ans {
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.subscribe {
+    margin-top: 30px;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.email-form input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.email-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.para{
+    font-size: smaller;
+}
+
+
+
+
+.footer .ques{
+    justify-content: left;
+    text-align: left;
+    padding-left: 250px;
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+.footer-links {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+   
+    margin: 20px 0;
+}
+
+.footer-links div {
+    margin: 10px 20px;
+}
+
+.footer-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.language-selector {
+    margin: 10px 0;
+}
+
+select {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+

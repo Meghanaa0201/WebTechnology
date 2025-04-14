@@ -1,0 +1,49 @@
+.box{
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+
+}
+
+.col1{
+    background: red;
+}
+
+.col2{
+    background: yellow;
+}
+
+.col3{
+    background: green;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:  auto auto auto auto  ;
+    row-gap: 10px;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width: 650px) and (max-width: 800px){
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media screen and(min-width: 500px) and ( max-width :649px) {
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+}
+
+
+@media screen  and ( max-width :611px) {
+    .container{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    
+}

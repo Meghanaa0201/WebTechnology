@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <legend>details</legend>
+    
+    <h1>Demo on forms </h1>
+    <form action="table_form.html" method="post">
+
+    <input type="file" name="filename">
+    <br><br>
+
+    <label for="">Gender : </label>
+
+    <label for="m">Male</label>
+    <input type= "radio" name="gender" value="male" id="m">
+
+    <label for="f">Female</label>
+    <input type="radio" name="gender" value="female" id="f" checked>
+
+    <label for="o">others</label>
+    <input type="radio" name="gender" value="others" id="o">
+
+    <br><br>
+    
+    <label for="">language:</label>
+    <input type="checkbox" name="lang" value="eng" id="e" checked>
+    <label for="e">english</label>
+
+    <input type="checkbox" name="lang" value="kan" id="k">
+    <label for="k">kannada</label> 
+
+    <input type="checkbox" name="lang" value="hin" id="h">
+    <label for="h">hindi</label>
+
+    <input type="checkbox" name="lang" value="oth" id="o" disabled>
+    <label for="o">other</label>
+    <br><br>
+
+    <label for="">places : </label>
+    <select name="place">
+        <option >places</option>
+        <option selected>bengaluru</option>
+        <option disabled>goa</option>
+        <option > mysore</option>
+        <option >chennai</option>
+        <option >mangalore</option>
+    </select>
+    <br>
+    <br>
+
+    <label for="">comment box : </label>
+    <textarea name="cmnr" placeholder="comment box" cols="15" rows="6"></textarea>
+
+
+
+
+
+    <br><br>
+    <input type="submit">
+
+    </fieldset>
+</form>
+</body>
+</html>

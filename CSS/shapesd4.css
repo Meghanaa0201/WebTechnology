@@ -1,0 +1,81 @@
+.square{
+    border-color: red;
+    border-style: solid;
+    border-width: 5px;
+    height: 100px;
+    width: 100px;
+    background-color:red;
+   
+}
+
+.rect{
+    border-color: green;
+    border-style: solid;
+    border-width: 70px;
+    height: 50%;
+    width: 50%;
+}
+
+.cir{
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.ov{
+    
+    border-width: 2px;
+    height: 300px;
+    width: 400px ;
+    border-style: solid;
+    border-radius:50% ;
+    background-color: blueviolet;
+}
+
+.leaf{
+    border-width: 90px;
+    height: 200px;
+    width: 200px ;
+    border-style: solid;
+    /* border-radius: 400px 0px 400px 0px ; */
+    background-color: green;
+    border-color: green;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+/* .tri{
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid blue;
+    } */
+
+.tri{
+    border: solid 1px black;
+    width: 0;
+    height: 0;
+
+    border-top: 100px solid #fefcfc;
+    border-left: 100px solid white;
+    border-right: 100px solid white;
+    border-bottom: 100px solid red ;
+
+}
+    .heart{
+        width: 0;
+        height: 0;
+        border-left: 150px solid green;
+        border-right: 200px solid yellow;
+        border-bottom: 200px solid blue;
+        border-top: 15px solid yellow;
+
+        /* border: 200px solid red;     */
+     }
+
+

@@ -1,0 +1,29 @@
+h1{
+    color: purple;
+    text-align: center;
+}
+
+#id{
+    background-color: bisque;
+}
+
+p{
+    background-color: aqua;
+}
+
+.class{
+    color: chartreuse;
+}
+
+h3 ,#id {
+    
+    text-decoration: underline;
+   
+}
+
+
+
+/* *{
+  text-align: center;
+  
+} */

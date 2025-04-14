@@ -1,0 +1,31 @@
+.box{
+    border: 1px solid black;
+    height: 50vh;
+    width:40vw ;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c1{
+    background: yellow;
+}
+
+.c2{
+    background: green;
+}
+
+@media screen and (min-width : 300px) and (max-width : 500px) {
+    .container{
+        display: block;
+    }
+
+    .box{
+        width: 80vh;
+        height: 25vh;
+        margin: 5vh auto;
+    }
+    
+}

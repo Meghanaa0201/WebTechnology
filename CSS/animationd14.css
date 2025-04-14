@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.rect{
+    border: 1px solid black;
+    height: 200px;
+    width: 50px;
+    background: radial-gradient(blue,pink);
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin: 20vh auto;
+}
+
+@keyframes rotate{
+
+    0%{
+        background-color: red;
+         /* transform: scale(0); */
+    }
+
+    50%{
+       
+        transform: scale(0); 
+        /* transform: rotate(180deg); 
+        /* transform: rotate(10turn); */
+
+    }
+
+
+    100%{
+        background-color: red;
+        /* transform: scale(0); */
+    }
+    
+}

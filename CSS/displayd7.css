@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+}
+
+a{
+    text-align: center;
+    display: block;
+}
+
+button{
+    display: block;
+    /* auto to move to center and  10px to give gap between from one above text to other , as it has border properties so we cant use text align center */
+    margin: auto;
+    margin: 10px auto  ;
+}
+
+.box{
+    border: 2px solid palevioletred;
+    height: 120px;
+    width: 230px ;
+    margin: auto;
+    background-color: palevioletred;
+    text-align: center;
+}
+
+.circle{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+    margin: 10px auto;
+    /* as it will be a inline so we cannot applu justify contents with display : inline , if we use also their will be no change , if we only apply inline-block only it will change to inline by overlying circles all together */
+
+    
+    /* display: inline; only change to inline with no space at the end
+    display: inline-block;  only change but at end space but it will not move */
+}
+
+.circles{
+    display: flex;
+    justify-content: space-evenly;
+     /* space-between ,  space-around */
+     background: black;
+}
+
+.c1{
+    background: red;
+}
+
+.c2{
+    background: yellow;
+}
+
+.c3{
+    background: green;
+}
+
+.square{
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.crc1{
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}

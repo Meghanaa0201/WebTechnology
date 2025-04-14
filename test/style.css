@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.body {
+    width: 100%; 
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+nav .logo img {
+    width: 120px;
+    margin: 10px;
+}
+
+nav .links ul {
+    display: flex;
+    color: white;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 39px;
+    text-align: center;
+    gap: 20px;
+    background-image: url(./images/app-link-background.svg);
+    background-size: cover;
+    color: white;
+}
+
+.btn {
+    background-color: #ff6f91;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.app {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.section {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.h2 {
+    margin-left: 50px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.features-container {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.features h2{
+    text-align: center;
+    padding-top: 50px;
+
+    
+}
+
+.item {
+    width: 200px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.item img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.item p {
+    color: #666;
+    font-size: 16px;
+}
+
+
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 39px;
+    text-align: center;
+    background-image: url(./images/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 39px;
+    text-align: center;
+    background-image: url(./images/last.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.ex{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.footer1{
+    gap: 30px;
+    display: inline-block;
+
+}
+

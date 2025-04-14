@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <table border="4px" rules="all">
+        <form action="">
+
+        <tr>
+            <th colspan="15"> Forms </th>
+        </tr>
+
+        <tr>
+            <td>Name <sup style="color: red;" >*</sup></td>
+            <td><input type="text" name="name" placeholder="enter ur name " required > </td>
+        </tr>
+
+        
+        <tr>
+            <td>email <sup style="color: red;" >*</sup></td>
+            <td><input type="email" name="email" placeholder="enter ur email " required> </td>
+        </tr>
+
+        <tr>
+            <td>password <sup style="color: red;" >*</sup> </td>
+            <td><input type="password" name="password" placeholder="enter ur password " required > </td>
+        </tr>
+
+        <tr>
+            <td>Age</td>
+            <td><input type="number" name="age" placeholder="enter ur age "> </td>
+        </tr>
+
+        <tr>
+            <td>phone number</td>
+            <td><input type="tel" name="phone" placeholder="enter ur phone number" pattern="(6-9){1}(0-9){9}"> </td>
+        </tr>
+
+        <tr>
+            <td><label for="dob">date of birth</label></td>
+            <td><input type="date" name="dob"></td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="">places : </label>
+                <td>
+                    <select name="place">
+                        <option >places</option>
+                        <option >bengaluru</option>
+                        <option >goa</option>
+                        <option > mysore</option>
+                        <option >chennai</option>
+                        <option >mangalore</option>
+                    </select>
+                </td>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="">gender</label></td>
+            <td>
+                <label for="male">male</label>
+                <input type="radio" name="gender" value="male" id="male">
+
+                <label for="female">female</label>
+                <input type="radio" name="gender" value="female" id="female">
+
+                <label for="others">others</label>
+                <input type="radio" name="gender" value="others" id="others">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="">comment box : </label>
+            </td>
+            <td>
+                <textarea name="cmnr" placeholder="comment box" cols="15" rows="6"></textarea>
+            </td>
+        </tr>
+            <br><br><br>
+        <tr>
+            <td>
+                <label for="">language:</label>
+                <td>
+                    <input type="checkbox" name="lang" value="eng" id="e" checked>
+                    <label for="e">english</label>
+
+                    <input type="checkbox" name="lang" value="kan" id="k">
+                    <label for="k">kannada</label> 
+
+                    <input type="checkbox" name="lang" value="hin" id="h">
+                    <label for="h">hindi</label>
+
+                    <input type="checkbox" name="lang" value="oth" id="o" disabled>
+                    <label for="o">other</label>
+                </td>     
+            </td>
+        </tr>
+
+
+        <tr>
+        <td colspan="5" align="center"><input type="submit"></td>
+      </tr>
+    </form>
+    </table>
+</center>
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+/* Descendent selector combinator  */
+div p {
+    color: red;
+}
+
+/* child selector combinators */
+div > p {
+    background-color: pink;
+}
+
+/* Adjacent siblings selector combinator */
+div + p{
+    text-align: center;
+}
+
+/* General siblings selector combinator */
+div ~p {
+    background-image: linear-gradient(white , cyan);
+}

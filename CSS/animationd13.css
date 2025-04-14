@@ -1,0 +1,35 @@
+.container{
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    background: red;
+    margin: auto;
+
+    animation-name: changedesign;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changedesign{
+    /* from{
+        background-color: chocolate;
+    }
+
+    to{
+        background-color: chartreuse;
+        border-radius: 50%;
+    } */
+
+    0%{
+        background-color: red;
+    }
+
+    50%{
+        background-color: yellow;
+        border-radius: 50%;
+    }
+
+    100%{
+        border-color: red;
+    }
+}

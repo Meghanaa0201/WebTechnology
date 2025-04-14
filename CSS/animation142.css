@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+
+.crc1{
+    border: none ;
+    height: 200px;
+    width: 200px;
+    margin: 40vh auto;
+    border-radius: 50%;
+    background: repeating-conic-gradient(greenyellow , crimson , blue , transparent 20%);
+    animation: rotate 5s linear infinite reverse ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ncircle{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background: black;
+}
+
+
+
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

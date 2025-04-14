@@ -1,0 +1,158 @@
+/* General Styles */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Banner */
+.top-banner {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.top-banner a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.top-banner .close {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.icons img {
+    width: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+/* Main Content */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.new {
+    color: red;
+    font-weight: bold;
+}
+
+.hot {
+    color: red;
+    font-weight: bold;
+}
+
+
+.product-list {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background: black;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.footer-links div {
+    flex: 1;
+    min-width: 150px;
+}
+
+.footer-links h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    font-size: 14px;
+    color: #aaa;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.footer-links ul li:hover {
+    color: white;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.footer-bottom {
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
