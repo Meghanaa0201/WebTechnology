@@ -61,6 +61,40 @@ let colorchange =() =>{
 //above code is also crct 
 
 let changeimg =() =>{
-    let image = document.getElementsByTagName("img");
+    // let image = document.getElementsByTagName("img");
+    // image[0].src = '../amazon/images/b12.jpg '
+    // //above stores in array format 
+
+    // let image = document.querySelector('img')
+    // image.src = '../amazon/images/b12.jpg '
+
+    let image = document.querySelectorAll('.pic')
     image[0].src = '../amazon/images/b12.jpg '
+
+    // querySelectorAll ....takes in the form of array ...we can pass in the form of class or id but tagname only allows tag 
+
+}
+
+let onOff = () =>{
+    let btn = document.querySelector("#btn");
+    let text = btn.innerText;
+    if(text==='ON'){
+        btn.innerText = 'OFF'
+    }
+    else{
+        btn.innerText = 'ON'
+    }
+
+}
+
+let daynight=() =>{
+    let hi = document.querySelector("#day");
+    let text = hi.innerText;
+
+    if(text === 'day'){
+        hi.innerText= 'Night'
+    }
+    else{
+        hi.innerText='day'
+    }
 }

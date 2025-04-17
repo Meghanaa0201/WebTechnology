@@ -13,3 +13,14 @@
     display: grid;
     grid-template-columns: auto auto auto ;
 }
+
+#btn{
+    display: block;
+    margin: auto;
+}
+
+#day{
+    display: block;
+    margin: auto;
+    width: 20%;
+}
