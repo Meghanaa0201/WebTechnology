@@ -57,3 +57,10 @@ let doubleClick =()=>{
 let colorchange =() =>{
     document.body.style.backgroundColor = prompt("which colour do u want ?")
 }
+
+//above code is also crct 
+
+let changeimg =() =>{
+    let image = document.getElementsByTagName("img");
+    image[0].src = '../amazon/images/b12.jpg '
+}
