@@ -16,3 +16,16 @@
 .yellow{
     background: yellow;
 }
+
+.on{
+    font-weight: bold;
+    background: green;
+    color: white;
+}
+
+.off{
+    font-weight: bold;
+    background: red;
+    color: white;
+}
+
