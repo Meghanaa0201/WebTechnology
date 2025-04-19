@@ -1,22 +1,22 @@
-// variable hoisting 
+// // variable hoisting 
 
-var a ;  // dec
-a = 100 ; //init
-console.log(a)
+// var a ;  // dec
+// a = 100 ; //init
+// console.log(a)
 
 
-b = 200 ; // init
-let b ;    //dec
-console.log(b)
+// b = 200 ; // init
+// let b ;    //dec
+// console.log(b)
 
-// function hoisiting
+// // function hoisiting
+// fun()
+// function fun(){
+//     console.log("hello")
+// }
+
 fun()
-function fun(){
-    console.log("hello")
-}
 
-fun(){
-    var fun = () =>{
-        console.log("bye`")
-    }
+var fun = () =>{
+     console.log("bye`")
 }
